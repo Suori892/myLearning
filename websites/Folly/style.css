@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f5f5fb;
+}
+.first-section {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 5% 0 5%;
+}
+nav .logo {
+  width: 100px;
+}
+.nav-vl {
+  border-left: 2px solid black;
+  height: 30px;
+  margin-left: 30px;
+}
+.link-logo {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list li {
+  margin: 20px;
+  list-style-type: none;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #777e90;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+}
+.list .active a {
+  color: black;
+}
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-button a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 10px 25px;
+  border: 1px solid #777e90;
+  border-radius: 79px;
+}
+/* Landing page */
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+/* Landing-text */
+.landing-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5em;
+  line-height: 1.5em;
+}
+.ellipse {
+  position: absolute;
+  width: 1130px;
+  height: 843px;
+  left: -18px;
+  top: 157px;
+
+  background: rgba(87, 45, 193, 0.09);
+  filter: blur(292px);
+}
+
+.landing-text p {
+  font-family: 'Montserar', sans-serif;
+  font-size: 1.5em;
+  margin: 45px 0 45px 0;
+}
+.landing-text .violet {
+  font-weight: 600;
+  color: #605ed5;
+}
+.landing-text a {
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 63px;
+  background: #605ed5;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icons a {
+  transition: 0.3s linear;
+}
+.social-media-icons a:hover {
+  transform: scale(1.1);
+}
+.social-media-icons a:nth-child(2n) {
+  margin: 25px 0 25px 0;
+}
+/* Message */
+.first-message,
+.second-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 13px;
+  padding: 5px;
+}
+.first-message {
+  position: absolute;
+  width: 260px;
+  height: 120px;
+  left: 566px;
+  top: 360px;
+}
+.second-message {
+  position: absolute;
+  width: 260px;
+  height: 120px;
+  left: 421px;
+  top: 550px;
+}
+.first-message,
+.first-message .back,
+.arrow1 {
+  background: #605ed5;
+}
+.arrow,
+.arrow1 {
+  align-self: flex-start;
+}
+.first-message h3,
+.description1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.second-message h3 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.second-message .description2 {
+  font-family: 'Poppins', sans-serif;
+  color: #777e90;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.features h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  flex-direction: column;
+}
+.question h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2em;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.round-square {
+  margin: 0 100px 0 100px;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.third-section {
+  height: 100vh;
+}
+.block p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 7px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

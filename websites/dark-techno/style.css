@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.right-side,
+.left-side {
+  height: 100vh;
+}
+body {
+  display: flex;
+}
+.right-side {
+  flex-grow: 3;
+  background-color: rgb(10, 29, 29);
+  display: flex;
+  flex-direction: column;
+}
+.left-side {
+  background: url(https://images.unsplash.com/photo-1624702660603-e32557833778?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=313&q=80)
+    no-repeat center;
+  background-size: 100% 100%;
+  flex-grow: 1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  position: absolute;
+  width: 280px;
+  height: 400px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  left: 13%;
+  top: 15%;
+}
+.content {
+  max-width: 190px;
+  text-align: center;
+}
+.content h1 {
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.content p {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.right-side h1 {
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+.content a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  transition: 0.3s linear;
+  font-weight: 500;
+}
+.content a:hover {
+  background: chartreuse;
+}
+.high {
+  display: flex;
+  justify-content: flex-end;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.center h1 {
+  position: absolute;
+}
+
+.medit {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.medit svg {
+  max-width: 700px;
+}
+path {
+  animation: float 2s ease infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
