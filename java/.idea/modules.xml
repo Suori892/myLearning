@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animalYears/animalYears.iml" filepath="$PROJECT_DIR$/animalYears/animalYears.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bestOperation/bestOperation.iml" filepath="$PROJECT_DIR$/bestOperation/bestOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binary_searching/binary_searching.iml" filepath="$PROJECT_DIR$/binary_searching/binary_searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sheeps/sheeps.iml" filepath="$PROJECT_DIR$/sheeps/sheeps.iml" />
+    </modules>
+  </component>
+</project>
